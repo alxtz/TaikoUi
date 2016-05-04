@@ -52,6 +52,7 @@ StartMenuScene::StartMenuScene()
     playButton = new PlayButton();
     addItem(playButton);
 
+    connect(playButton , SIGNAL(getPlay()) , this , SLOT(clearStartMenu()));
     //clear();
 }
 

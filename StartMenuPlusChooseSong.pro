@@ -17,10 +17,18 @@ SOURCES += main.cpp \
     GameView.cpp \
     StartMenuScene.cpp \
     SongChooseScene.cpp \
-    PlayButton.cpp
+    PlayButton.cpp \
+    SongButton.cpp \
+    StartMenuScene/StartMenuScene.cpp \
+    SongChooseScene/SongChooseScene.cpp \
+    StartMenuScene/PlayButton.cpp
 
 HEADERS  += \
     GameView.h \
     StartMenuScene.h \
     SongChooseScene.h \
-    PlayButton.h
+    PlayButton.h \
+    SongButton.h \
+    StartMenuScene/StartMenuScene.h \
+    SongChooseScene/SongChooseScene.h \
+    StartMenuScene/PlayButton.h

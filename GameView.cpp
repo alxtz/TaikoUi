@@ -11,7 +11,7 @@ GameView::GameView()
 
 void GameView::setStartMenu()
 {
-    StartMenuScene * startMenuScene = new StartMenuScene();
+    startMenuScene = new StartMenuScene();
     setScene(startMenuScene);
 }
 
@@ -19,4 +19,6 @@ void GameView::setSongChoose()
 {
     SongChooseScene * songChooseScene = new SongChooseScene();
     setScene(songChooseScene);
+
+    songChooseScene->loadSongButtons();
 }

@@ -4,6 +4,7 @@
 
 #include <QObject>
 #include <QGraphicsView>
+#include "StartMenuScene.h"
 
 class GameView : public QGraphicsView
 {
@@ -11,6 +12,7 @@ class GameView : public QGraphicsView
 
     public:
         GameView();
+        StartMenuScene * startMenuScene;
 
     public slots:
         void setStartMenu();

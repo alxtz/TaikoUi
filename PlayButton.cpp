@@ -1,6 +1,7 @@
 #include <QPixmap>
 #include "PlayButton.h"
 #include "GameView.h"
+#include "StartMenuScene.h"
 
 extern GameView * gameView;
 
